@@ -1,0 +1,36 @@
+.main-page{
+    display: flex;
+    flex-direction: column;    
+    height: 5%;
+}
+.main-block {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.categories{
+    display: flex;
+    justify-content: space-evenly;    
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+}
+
+#main-title{
+    text-align: center;
+    margin-top: 13%;
+    color: #333;
+}
+
+a{
+    text-decoration: none;
+    color: #337ab7;
+}
+a:hover{
+    text-decoration: underline;    
+}
+
+hr {    
+    background-color: #a0a0a0;
+    color: #a0a0a0;
+    height: 2px;
+}
+
