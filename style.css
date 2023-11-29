@@ -1,8 +1,14 @@
+body {
+    background: #1c1c1c;
+}
+
 .main-page{
     display: flex;
     flex-direction: column;    
     height: 5%;
+    min-height: 97vh;
 }
+
 .main-block {
     margin-left: 25%;
     margin-right: 25%;
@@ -17,12 +23,12 @@
 #main-title{
     text-align: center;
     margin-top: 13%;
-    color: #333;
+    color: #dfdfdf;
 }
 
 a{
     text-decoration: none;
-    color: #337ab7;
+    color: #73d8c5;
 }
 a:hover{
     text-decoration: underline;    
@@ -34,3 +40,25 @@ hr {
     height: 2px;
 }
 
+footer {
+    color: #dfdfdf;
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#name {
+    margin-right: 10px;
+    font-size: 17px;
+}
+
+footer a {
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer img {
+    vertical-align: middle;
+}

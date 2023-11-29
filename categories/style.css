@@ -1,7 +1,11 @@
+body {
+    background: #1c1c1c;
+}
+
 .main-page{
     display: flex;
     flex-direction: column;    
-    height: 5%;
+    height: 5%;    
 }
 .main-block {
     margin-left: 25%;
@@ -17,12 +21,12 @@
 #main-title{
     text-align: center;
     margin-top: 13%;
-    color: #333;
+    color: #dfdfdf;
 }
 
 a{
     text-decoration: none;
-    color: #337ab7;    
+    color: #73d8c5;    
 }
 a:hover{
     text-decoration: underline;    

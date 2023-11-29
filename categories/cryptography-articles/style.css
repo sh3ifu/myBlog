@@ -1,16 +1,20 @@
 body {
     display: flex;
+    background: #1c1c1c;
 }
 
 .main-block {
-    margin-left: 10%;
-    margin-right: 15%;
+    margin-left: 15%;
+    margin-right: 25%;
 }
 
 .text {
-    font-family: 'Inconsolata', monospace;
+    /* font-family: 'Inconsolata', monospace; */
+    /* font-family: 'Lato', monospace; */
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: larger;
+    /* font-size: larger; */
+    font-size: 18px;
+    color: #fafafa;
 }
 
 .under-hr-info {
@@ -19,19 +23,19 @@ body {
 }
 
 #title {
-    color: #333;
+    color: #dfdfdf;
     margin-top: 10%;
     font-size: xx-large;
 }
 
 #date {
-    color: #a0a0a0;
+    color: #888;
     font-size: large;
 }
 
 #all-posts {
     text-decoration: none;
-    color: #337ab7;
+    color: #73d8c5;
 }
 
 hr {    
@@ -41,12 +45,42 @@ hr {
 }
 
 table {
-    width: 50%; /* Ширина таблицы */
-    background: white; /* Цвет фона таблицы */
+    width: 50%;
+    background: white;
     color: black;
-    border-spacing: 1px; /* Расстояние между ячейками */
+    border-spacing: 1px;
    }
 td, th {
-    /* background: maroon; */
-    padding: 5px; /* Поля вокруг текста */
+    padding: 5px;
+}
+
+a {
+    color: #73d8c5;
+}
+
+h3 {    
+    margin-top: 50px;
+}
+
+img { 
+    margin: auto;
+}
+.one_picture {
+    display: block;
+}
+.two_pictures {
+    text-align: center;
+    display: block;
+}
+.pictures {
+    padding-right: 100px;
+}
+.captions {
+    display: flex;    
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
+.one_caption {
+    text-align: center;
 }
