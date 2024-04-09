@@ -5,7 +5,7 @@ body {
 
 .main-block {
     margin-left: 15%;
-    margin-right: 25%;
+    margin-right: 15%;
 }
 
 .text {
@@ -61,6 +61,14 @@ h3 {
 
 img { 
     margin: auto;
+}
+.iframe_center {
+    display: flex;
+    justify-content: center; /* Выравниваем по горизонтали по центру */
+    align-items: center; /* Выравниваем по вертикали по центру */    
+}
+.formula {
+    text-align: center;
 }
 .one_picture {
     display: block;
