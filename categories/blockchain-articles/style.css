@@ -19,9 +19,21 @@ body {
     justify-content: space-between;
 }
 
+.title {
+    display: flex;    
+    align-items: center;
+    margin-top: 10%;
+}
+
+#language-button {
+    margin-top: 40px;
+    margin-left: 55%;    
+    cursor: pointer;    
+    height: 40px;
+}
+
 #title {
     color: #dfdfdf;
-    margin-top: 10%;
     font-size: xx-large;
 }
 
